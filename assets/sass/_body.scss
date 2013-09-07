@@ -1,0 +1,20 @@
+/* == Body == */
+
+* {
+  @include vendor(box-sizing, border-box);
+}
+
+body {
+  margin: 0;
+  background-color: $body-color-background;
+  font: $base-font-weight #{$base-font-percent}/#{$base-line-height} $base-font-family;
+  color: $body-color-font;
+
+  @include breakpoint("max", $breakpoint-desk) {
+    font-size: 100%;
+  }
+
+  @include breakpoint("max", $breakpoint-palm) {
+    font-size: 87.5%;
+  }
+}

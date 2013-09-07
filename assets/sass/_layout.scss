@@ -1,0 +1,38 @@
+/* == Layout == */
+
+.l-container {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.l-header {}
+
+.l-nav {
+  padding: ($base-spacing-unit * 1.5) 0 0;
+  overflow: hidden;
+
+  & li {
+    margin-right: $base-spacing-unit * 2;
+
+    @include breakpoint("max", $breakpoint-lap) {
+      margin-right: $base-spacing-unit;
+    }
+  }
+}
+
+.l-main {}
+
+  .l-icon {
+    display: block;
+    margin: ($base-spacing-unit * 1.5) auto ($base-spacing-unit * 2);
+  }
+
+  .l-actions {
+    margin: ($base-spacing-unit * 2.5) 0 ;
+  }
+
+.l-footer {}
+
+  .l-legal {
+    margin-top: $base-spacing-unit * 1.5;
+  }
