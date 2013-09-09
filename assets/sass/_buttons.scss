@@ -1,0 +1,29 @@
+/* == Buttons == */
+
+.button {
+  @include vendor(border-radius, $base-border-radius);
+  margin: 0;
+  padding: 0 $base-spacing-unit;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: nowrap;
+  font-family: inherit;
+  cursor: pointer;
+  line-height: 2.4;
+
+  &,
+  &:hover,
+  &:active,
+  &:focus,
+  &:visited {
+    @extend %text--bold;
+    @extend .link--hidden;
+    text-decoration: none;
+    color: $body-color-background;
+  }
+}
+
+  .button--primary {
+    @extend %text--bold;
+    background-color: $color-primary;
+  }
