@@ -1,0 +1,15 @@
+/* == Widths == */
+
+.one-whole {
+  width: 100%;
+}
+
+.one-quarter {
+  width: 25%;
+}
+
+@include breakpoint("max", $breakpoint-lap) {
+  .lap--one-whole {
+    width: 100%;
+  }
+}
