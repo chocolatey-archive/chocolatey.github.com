@@ -8,7 +8,7 @@ redir_to: 'https://chocolatey.org/about'
 * Wht is Chocolatey?
 {: toc }
 
-## What is Chocolatey?
+## Wht is Chocolatey?
 
 Chocolatey is kind of like `apt-get`, but for Windows. It is a machine level package manager that is built on top of [NuGet](http://www.nuget.org/) command line and the NuGet infrastructure.
 
