@@ -1,4 +1,0 @@
-name: Chocolatey
-description: Kind of like apt-get, but for Windows
-markdown: kramdown
-exclude: ["README.md", "Gruntfile.js", "package.json", "node_modules", "sass", "src"]
