@@ -2,9 +2,10 @@
 title: "About"
 layout: page
 wiki: https://github.com/chocolatey/chocolatey/wiki#information
+redir_to: 'https://chocolatey.org/about'
 ---
 
-* What is Chocolatey?
+* Wht is Chocolatey?
 {: toc }
 
 ## What is Chocolatey?
